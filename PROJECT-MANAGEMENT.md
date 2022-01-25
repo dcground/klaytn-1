@@ -1,136 +1,25 @@
-Overview
-This guide Introduces how to manage Klaytn SW Projects.
+# Project Operation Guidelines
+
+Thank you for your interest in Klaytn. As an open source project, Klaytn team tries to show all development tasks in the project.   
+We have divided projects into meaningful modules, and each project contains related development items, and you can see the progress.
+This guide introduces how to manage Klaytn SW Projects. It helps you to easily understand how to work and we hope anyone to contribute to the Klaytn in the future.
+
+## Get started
+- 클레이튼 팀은 년 단위의 개발 로드맵을 가지고 있습니다. 로드맵 안에는 분기별로 세부 계획이 있습니다. 로드맵을 기반으로 개발을 하고 릴리즈를 진행합니다. 로드맵 계획은 내부적으로 수립하지만, 로드맵에 포함되는 아이템들은 내외부 의견을 수렴하고 시장환경과 리소스 상황에 맞게 결정합니다. 외부에서도 KIP, 커뮤니티 등을 통해 클레이튼 로드맵에 포함시킬 수 있습니다. 마일스톤(링크)에서 버전별로 포함되는 개발 피쳐를 확인하실 수 있습니다. 
+
+# Milestone (Version) 
+- Milestone is created for each version and task unit on the Roadmap.
+- Milestone for each version (e.g. v1.8.0)
+- Includes tasks of projects
+
+## Project
+모듈 특성에 맞게 여러 개의 프로젝트(링크)를 관리하고 있으며, 해당 프로젝트에 관련된 개발 아이템이 추가됩니다. 
+프로젝트 관리는 칸반보드 형태로 되어 있으며, 아래의 워크 플로우를 따릅니다.
+- To Do → In Progress → (PR) Review in Progress → Done
+
+## unit of work
+작업의 편의성을 위해 업무 단위를 다음과 같이 정의하였습니다. 이슈를 생성할 때, 타입에 맞는 레이블을 설정합니다. 
+- Task : High-level Dev item, Task may have multiple SubTasks.
+- SubTask : work unit
+- Story : High-level work item, not development
 
-Reference
-Klaytn Group Dashboard : Klaytn 2.0 Dashboard 
-
-Klaytn Dev Team Roadmap : 2022 Klaytn Dev Roadmap 
-
-Klaytn Dev Team Schedule : 2022 Klaytn Dev Roadmap 
-
-Dev Projects : Projects · klaytn/klaytn  
-
-Klaytn Release Milestones : Milestones - klaytn/klaytn 
-
-General Rules
-GitHub is the main tool for project management.
-
-A regular version is released every 2-3 month.
-
- 
-
-Unit
-
-Objective
-
-Creator
-
-Detail
-
-Roadmap
-
-Team work and schedule
-
-PM, Team leader, Cell leader
-
-Status of overall team work and schedule
-
-Milestone (Version)
-
-Version management
-
-PM, Team leader
-
-Milestone contains major development items based on the Task
-
-Create Milestone for each version
-
-Only includes Tasks for the Milestone(version)
-
-Project
-
-Work management
-
-Team leader, 
-
-Cell leader
-
-Create Project for each cell 
-
-Includes Tasks, Story, SubTasks
-
-Task (Issue)
-
-High-level Dev item management
-
-Team leader, Cell leader, Developer
-
-To create an Issue
-
-Mark Tasks using labels
-
-Add to Milestone for each version and add to Project
-
-May have multiple SubTasks
-
-SubTask (Issue)
-
-Dev item management
-
-Cell leader, Developer
-
-To create an Issue 
-
-Mark SubTasks using labels
-
-Add to Cell Project
-
-Make it comprehensible for other developers
-
-Story (Issue)
-
-High-level item management
-
-Team leader, Cell leader, Developer
-
-To create an Issue
-
-Mark Tasks using Story
-
-Add to Cell Project
-
-May have multiple SubTasks
-
-Milestone(Version) Guide
-Milestone is created for each version and task unit on the Roadmap.
-
-Milestone for each version (e.g. v1.8.0)
-
-Includes task Issues of projects
-
-Release page includes other necessary action items such as documentation, binary update request and other work items.
-
-e.g. https://krustuniverse.atlassian.net/wiki/spaces/KG/pages/9112519221 
-
-Project Guide
-Project for each cell’s task (e.g. Interface, Consensus)
-
-A cell may divide up the project in multiple task units.
-
-A task unit Project includes the Task Issues, Story Issues and the SubTask Issues
-
-Issue Guide
-To create an Issue, select an appropriate label (Task, Story, SubTask).
-
-Select the appropriate Projects, Milestones in which the Issue is included.
-
-Link Issue and PR.
-
-Add the link to the SubTask Issue within the Task/Story Issue body.
-
-e.g. https://github.com/klaytn/klaytn/issues/1104 
-
-Kanban Board workflow
-Issues have the following workflow.
-
-To Do → In Progress → (PR) Review in Progress → Done
