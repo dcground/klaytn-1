@@ -1,11 +1,11 @@
 # Project Operation Guidelines
 
 Thank you for your interest in Klaytn. As an open source project, Klaytn team tries to show all development tasks in the project.   
-We have divided projects into meaningful modules, and each project contains related development items, and you can see the progress.
-This guide introduces how to manage Klaytn SW Projects. It helps you to easily understand how to work and we hope anyone to contribute to the Klaytn in the future.
+Projects are set up per development module and each project contains related development items. Anyone can see the progress of projects and items.
+This document introduces how to manage Klaytn SW Projects. It helps you to easily understand how to work and we hope anyone to contribute to the Klaytn in the future.
 
 ## Get started
- 클레이튼 팀은 년 단위의 개발 로드맵을 가지고 있습니다. 로드맵 안에는 분기별로 세부 계획이 있습니다. 로드맵을 기반으로 개발을 하고 릴리즈를 진행합니다. 로드맵 계획은 내부적으로 수립하지만, 로드맵에 포함되는 아이템들은 내외부 의견을 수렴하고 시장환경과 리소스 상황에 맞게 결정합니다. 외부에서도 KIP, 커뮤니티 등을 통해 의견을 제시하여 로드맵에 포함시킬 수 있습니다. 마일스톤(링크)에서 버전별로 포함되는 개발 피쳐를 확인하실 수 있습니다. 
+클레이튼 팀은 년 단위의 개발 로드맵을 가지고 있습니다. 로드맵 안에는 분기별로 세부 계획이 있습니다. 로드맵을 기반으로 개발을 하고 릴리즈를 진행합니다. 로드맵 계획은 내부적으로 수립하지만, 로드맵에 포함되는 아이템들은 내외부 의견을 수렴하고 시장환경과 리소스 상황에 맞게 결정합니다. 외부에서도 KIP, 커뮤니티 등을 통해 의견을 제시하여 로드맵에 포함시킬 수 있습니다. 마일스톤(링크)에서 버전별로 포함되는 개발 피쳐를 확인하실 수 있습니다. 
 
 ## Milestone (Version) 
 - Milestone is created for each version and task unit on the Roadmap.
