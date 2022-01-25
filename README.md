@@ -68,3 +68,8 @@ in our repository in the `COPYING` file.
 ## Contributing
 
 As an open source project, Klaytn always welcomes your contribution. Please read our [CONTRIBUTING.md](./CONTRIBUTING.md) for a walk-through of the contribution process.
+
+## Project Management
+
+Klaytn shows our development tasks in the Klaytn project. Please read our [PROJECT-MANAGEMENT.md](./PROJECT-MANAGEMENT.md) for understanding process of project management. It helps you to easily understand and contribute to the Klaytn project.
+
